@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-08T14:36:50.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4362158000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login with valid email and password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1126000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35676000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.Login_steps.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209547000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter valid email address",
+            "match": {
+              "location": "stepDef.Login_steps.iEnterValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92608000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid password",
+            "match": {
+              "location": "stepDef.Login_steps.iEnterValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71847000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "stepDef.Login_steps.iClickOnLogInButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login/login.feature",
+    "tags": []
+  }
+]
